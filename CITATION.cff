@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use use this repo, please cite it as below."
+authors:
+- family-names: "Mario"
+  given-names: "Ruiz Noguera"
+  orcid: "https://orcid.org/0000-0002-3433-5883"
+title: "PYNQ Tutorials"
+version: 1.0
+date-released: 2024-06-17
+url: "https://github.com:mariodruiz/PYNQ_tutorials"
