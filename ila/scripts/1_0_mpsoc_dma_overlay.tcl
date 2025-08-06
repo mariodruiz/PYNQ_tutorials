@@ -14,6 +14,7 @@ set_property -dict [list \
   CONFIG.PSU__USE__M_AXI_GP2 {1} \
   CONFIG.PSU__USE__S_AXI_GP2 {1} \
   CONFIG.PSU__FPGA_PL1_ENABLE {0} \
+  CONFIG.PSU__USE__IRQ0 {1} \
 ] [get_bd_cells zynq_ultra_ps_e]
 
 create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma axi_dma
