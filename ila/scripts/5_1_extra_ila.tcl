@@ -8,3 +8,6 @@ set_property -dict [list \
 connect_bd_net [get_bd_pins system_ila_1/clk] [get_bd_pins zynq_ultra_ps_e/pl_clk0]
 connect_bd_net [get_bd_pins system_ila_1/resetn] [get_bd_pins rst_ps8_100M/peripheral_aresetn]
 connect_bd_intf_net [get_bd_intf_pins system_ila_1/SLOT_0_AXI] [get_bd_intf_pins axi_smc/S01_AXI]
+
+validate_bd_design
+save_bd_design
